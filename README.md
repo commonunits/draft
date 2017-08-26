@@ -1,6 +1,6 @@
 # draft
 SI is broken. Let's create the opening draft for the `commonunits` system. Open to PRs.
-> This is a living document that does not define any standards right now. See [goals](#Goals) to understand what we think a hypothetical `commonunits` should do.
+> This is a living document that does not define any standards right now. See **Goals** to understand what we think a hypothetical `commonunits` should do.
 
 ## Why commonunits?
 The International System of Units (Système international/SI) did a very good job at defining standard units for use in scientific and daily use. They built on top of the metric system and set in stone (or metal, in the case of the kilogram) the units that were to be followed for decades to come. The SI system was great when it was published in 1960. But today, as some of us look back and say, "why is time 60 seconds in a minute?", "why is 11:50 not midway from 11 to lunch time?", it might be worth thinking of an alternative system—one set entirely in base 10.
@@ -25,4 +25,4 @@ radian (angle), hertz (frequency), newton (force, weight), pascal (pressure, str
 Several of these again have their own quirks which at the time of creation of the SI, might have been as far as they could get. But the SI also defines ten [metric prefixes](https://en.wikipedia.org/wiki/Metric_prefix). If you're going to define standard metric prefixes, might as well make use of them.
 
 # Goals
-Our goal is to try to renormalize as many of these units to base 10 and use more intuitive standards. The `commonunits` manifesto needs help making, and every bit is appreciated. Raise `issues` and `pull requests` as you deem fit.
+Our goal is to try to renormalize as many of these units to base 10 and use more intuitive standards. The `commonunits` manifesto needs help making, and every bit is appreciated. Raise `issues` and start `pull requests` as you deem fit.
