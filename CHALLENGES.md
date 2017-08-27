@@ -26,3 +26,5 @@ Therefore, a day is simply 100,000 clarkes.
 The speed of light in CU is now 2.59 x 10<sup>8</sup> metres per clarke instead.
 
 Such a change will be unwelcome because millions of textbooks will say the speed of light is 3 x 10<sup>8</sup>. This is however convenient because it equals to 2.59 x 10<sup>13</sup> metres in a day. See how only the order of magnitude changes while the mantissa/significand stays the same.
+
+> Disclaimer: The above is cited purely as an example, and does not attempt to define the standard for `clarkes`.
