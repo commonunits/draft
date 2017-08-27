@@ -7,12 +7,22 @@ As a race, we've always **tried** to resist change, for good or bad—but change
 
 The second and even more complicated challenge is practicality.
 
-Defining a bunch of units is the easier part. Fathoming its implications is a totally different matter. Almost every single text book will need to change to adapt to a new system if one was to be created. Practicing mathematicians and physicists will curse us for this. There needs to be a graceful fallback or downgrade to SI. All this sounds very simple, but as I write, my heart trembles.
+Defining a bunch of units is the easier part. Fathoming its implications is a totally different matter. Every single text book will need to change to adapt to a new system if one was to be created. Practicing mathematicians and physicists will curse us for this. There needs to be a graceful fallback or downgrade to SI. All this sounds very simple, but as I write, my heart trembles.
 
-Take the speed of light in space for example. It will not be 3 x 10^8 m/s anymore.
+Take the speed of light in space for example. It will not be 3 x 10<sup>8</sup> m/s anymore (or 299,792,458m/s if you want to be accurate).
 
-According to SI units, there are 86,400 seconds in a day.
+Light travels 25902068371200 metres in 86,400 seconds or a regular day.
 
-Assuming that the equivalent of second was something like, say microday (one 100,000th of a day), there would be 100,000 microdays in a day.
+Make the following assumptions:
 
-This means light will travel at ~2.59 x 10^8 metres per microday. Things like this will surely cause mass confusion and unrest if forced upon and not smoothly and gradually sled in.
+> A regular day is 10 `metric hours`.
+
+> A `metric hour` is 100 `hectaclarkes`.
+
+> A  `hectaclarke` is 100 `clarkes` (After Arthur C. Clarke).
+
+Therefore, a day is simply 100,000 clarkes.
+
+The speed of light in CU is now 2.59 x 10<sup>8</sup> metres per clarke instead.
+
+Such a change will be unwelcome because millions of textbooks will say the speed of light is 3 x 10<sup>8</sup>. This is however convenient because it equals to 2.59 x 10<sup>13</sup> metres in a day. See how only the order of magnitude changes while the mantissa/significand stays the same.
