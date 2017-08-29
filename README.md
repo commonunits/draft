@@ -4,7 +4,7 @@ The International System of Units is great, but broken. When it was written, the
 > This is a living, growing document that does not define any solid specifications right now. Instead of seeing this as a serious effort to change everyone from SI to CU, it should be taken as an interesting "what if" thought experiment. See [Preface](docs/0.Preface.MD) to understand what we think a hypothetical `CommonUnits` should do.
 
 ## Chapters
-- [[01]Preface](docs/0.Preface.MD)
-- [Challenges](docs/1.Challenges.MD)
+- [[00] Preface](docs/0.Preface.MD)
+- [[01] Challenges](docs/1.Challenges.MD)
 
 Add `issues` and start `pull requests` generously. We need your help!
