@@ -8,3 +8,7 @@ The International System of Units is great, but broken. When it was written, the
 - [Chapter 1: Challenges](docs/1.Challenges.MD)
 
 Add `issues` and start `pull requests` generously. We need your help!
+
+
+## LaTeX
+For building the draft use [pdflatex](https://ctan.org/pkg/pdftex?lang=en)
