@@ -2,7 +2,7 @@
 # 22 Comments displayed
 # 16 Mathmode still on at end of file
 cd src
-chktex 0.CommonUnits.tex -l ../.chktexrc
+chktex CommonUnits.tex -l ../.chktexrc
 exitcode=$?
 cd ..
-exit $exitcode
+return $exitcode
