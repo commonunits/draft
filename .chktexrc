@@ -175,7 +175,7 @@ TabSize = 4
 
 CmdLine
 {
-   -wall --nowarn=22 --erroron=16
+   -wall --nowarn=22 --nowarn=30 --erroron=16
 }
 
 #####################################################################
@@ -498,6 +498,8 @@ WipeArg
     \textipa:{}
     # LuaTeX
     \directlua:{} \luaescapestring:{}
+    # Custom CU Macros
+    \fhref:{}
 }
 
 #####################################################################
