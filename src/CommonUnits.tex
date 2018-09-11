@@ -7,6 +7,7 @@
 \usepackage[useregional]{datetime2}
 \usepackage[makeroom]{cancel}
 \usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
 
 %% Put Chapter Number and name on one line
 \titleformat{\chapter}[hang]
@@ -14,14 +15,25 @@
 
 %% Sets page size and margins
 \usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
 \title{CommonUnits --- Draft}
+\author{CommonUnits Contributors}
 
-%% Preamble
+%% Custom Macros
+\newcommand{\cu}{CommonUnits}
 
+\newcommand{\fhref}[2]{
+    \href{#2}{#1}\footnote{\url{#2}}
+}
 
 \begin{document}
 \maketitle
+
+%% Roman numbers for Special Chapters
+\pagenumbering{roman}
 \tableofcontents
-%% Include the Chapters here
 \include{Preface}
+\include{Contributors}
+\pagenumbering{arabic}
+\include{1.Challenges}
 \end{document}
