@@ -1,0 +1,41 @@
+\documentclass[a4paper]{report}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[useregional]{datetime2}
+\usepackage[makeroom]{cancel}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%% Put Chapter Number and name on one line
+\titleformat{\chapter}[hang]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter:}{0.5em}{}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\title{CommonUnits --- Draft}
+\author{CommonUnits Contributors}
+
+%% Custom Macros
+\newcommand{\cu}{CommonUnits}
+
+\newcommand{\fhref}[2]{
+  \href{#2}{#1}\footnote{\url{#2}}
+}
+
+\begin{document}
+\maketitle
+
+%% Roman numbers for Special Chapters
+\pagenumbering{roman}
+\tableofcontents
+  \include{Preface}
+  \include{Contributors}
+\pagenumbering{arabic}
+  \include{1.Challenges}
+\end{document}
